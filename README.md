@@ -1,6 +1,7 @@
 # Learning-Java
 Learning Java 
-# A4
+# A4    
+2021 12 20  
 有關於 Scanner 的用法   
 **Scanner test = new Scanner(System.in);**   
 為啟動掃描儀    
