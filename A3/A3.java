@@ -7,8 +7,6 @@ public class A3 {
         double 身高公尺平方 = (身高公尺*身高公尺);
         double BMI = (Integer.parseInt(A[1])/身高公尺平方);
         System.out.println(BMI);
-
-           
     }
 }
         
