@@ -24,10 +24,17 @@ public class 成績計算 {
         double ave = (double)total / 3 ; //強制轉型只限制數字 
         System.out.println("平均"+ave);
         //if else
-        if (ave >= 60){
-            System.out.println("恭喜及格");
-        }else{
-            System.out.println("抱歉補考");
+        // if (ave >= 60){
+        //     System.out.println("恭喜及格");
+        // }else{
+        //     System.out.println("抱歉補考");
+        // }
+        if((ave<100)&&(ave>80)){
+            System.out.println("A");
+        }else if((ave<90)&&(ave>80)){
+            System.out.println("B");
+        }else if((ave<0)&&(ave>90)){
+            System.out.println("C");
         }
     }
     

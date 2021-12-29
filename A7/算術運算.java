@@ -10,7 +10,5 @@ public class 算術運算 {
         System.out.println("(float)a/b , g="+g);
         g = (int)(a/9.0);
         System.out.println("(int)a/9.0 , g="+g);
-
     }
-    
 }

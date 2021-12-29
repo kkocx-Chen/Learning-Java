@@ -25,5 +25,16 @@ public class A6_1 {
         }else{
             System.out.println("抱歉補考");
         }
+        if((ave<=100)&&(ave>=90)){
+            System.out.println("A");
+        }else if((ave<90)&&(ave>=80)){
+            System.out.println("B");
+        }else if((ave<80)&&(ave>=70)){
+            System.out.println("C");
+        }else if ((ave<70)&&(ave>=60)){
+            System.out.println("D");
+        }else if ((ave<60)&&(ave>=0)){
+            System.out.println("E");
+        }
     }
 }
