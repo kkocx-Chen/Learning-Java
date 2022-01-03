@@ -16,16 +16,18 @@ public class A8 {
             System.out.print("請重新輸入終止值:");
             y = Integer.parseInt(br.readLine());
         }
-        while(y<0);
+        while(y<0||y<s);
         int i;
         int sum=0;
         for (i=s;i<=y;i++){
             sum=sum+i;
-            System.out.print("i= "+i);
-            System.out.println("   sum="+sum);
+            if(i%3==0||i%5==0){
+                System.out.println("i= "+i);
+                System.out.println("   sum="+sum);
+            }
         }
         System.out.print("迴圈中斷 i = "+i);
-        System.out.println("   sum"+sum);
+        System.out.println("   sum = "+sum);
     }
     
 }
