@@ -6,8 +6,17 @@ public class A8 {
         BufferedReader br=new BufferedReader(isr);
         System.out.print("請輸入起始值:");
         int s = Integer.parseInt(br.readLine());
+        while (s<0){
+            System.out.print("請重新輸入起始值:");
+            s = Integer.parseInt(br.readLine());
+        }
         System.out.print("請輸入終止值:");
         int y = Integer.parseInt(br.readLine());
+        do{
+            System.out.print("請重新輸入終止值:");
+            y = Integer.parseInt(br.readLine());
+        }
+        while(y<0);
         int i;
         int sum=0;
         for (i=s;i<=y;i++){
