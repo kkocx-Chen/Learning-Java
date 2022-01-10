@@ -25,16 +25,39 @@ public class A6_1 {
         }else{
             System.out.println("抱歉補考");
         }
-        if((ave<=100)&&(ave>=90)){
+        switch((int)(ave/10)){
+            case 10:
             System.out.println("A");
-        }else if((ave<90)&&(ave>=80)){
+            break;
+            case 9:
             System.out.println("B");
-        }else if((ave<80)&&(ave>=70)){
+            break;
+            case 8:
             System.out.println("C");
-        }else if ((ave<70)&&(ave>=60)){
+            break;
+            case 7:
             System.out.println("D");
-        }else if ((ave<60)&&(ave>=0)){
+            break;
+            case 6:
             System.out.println("E");
+            break;
+            default:
+            System.out.println("F");
+            break;
+
+            
         }
+
+        // if((ave<=100)&&(ave>=90)){
+        //     System.out.println("A");
+        // }else if((ave<90)&&(ave>=80)){
+        //     System.out.println("B");
+        // }else if((ave<80)&&(ave>=70)){
+        //     System.out.println("C");
+        // }else if ((ave<70)&&(ave>=60)){
+        //     System.out.println("D");
+        // }else if ((ave<60)&&(ave>=0)){
+        //     System.out.println("E");
+        // }
     }
 }
